@@ -211,6 +211,11 @@ hash = "f67aa60c765593a8c70f78296a460349c6aef5f4a16d173eae02e8803b545ad4"
 metafile = true
 
 [[files]]
+file = "mods/jei.pw.toml"
+hash = "e1186ddc953e1446af3ba58cbb80ddd0d2315c1571ed5438f5c03953edf0b656"
+metafile = true
+
+[[files]]
 file = "mods/knowlogy.pw.toml"
 hash = "f092b35e3b003cd7a305c68a0c00c450b489ac36c22282d2ec56f77dff822d56"
 metafile = true
@@ -228,6 +233,11 @@ metafile = true
 [[files]]
 file = "mods/lithium.pw.toml"
 hash = "b8ce87d9a7164676e68e69e9e6706cd6e9123b1fe740612b1ba39b43ce8675ef"
+metafile = true
+
+[[files]]
+file = "mods/more-overlays-updated.pw.toml"
+hash = "aebb0584b057847e605301fac10e669613bf9c9215ed7cbe6f49e6047487c680"
 metafile = true
 
 [[files]]
