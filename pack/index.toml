@@ -186,6 +186,11 @@ hash = "d88788a00e76a1c7489776cddff1e9179676e842a7cd9f04b59ebc9b3e40c7ac"
 metafile = true
 
 [[files]]
+file = "mods/hostile-neural-networks.pw.toml"
+hash = "cfb258a5d747733f5339e3df564e242988ddc92d17b5f905457f223da2e4a657"
+metafile = true
+
+[[files]]
 file = "mods/iris.pw.toml"
 hash = "f67aa60c765593a8c70f78296a460349c6aef5f4a16d173eae02e8803b545ad4"
 metafile = true
@@ -208,6 +213,11 @@ metafile = true
 [[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "7ec6e5aab74e9427df771c614be3c01ecc156af653104693387387ce033934fa"
+metafile = true
+
+[[files]]
+file = "mods/placebo.pw.toml"
+hash = "d94f05f57f4a981d3e0fda30b3def484cee5715edc48d8a2a0c8173008a125ea"
 metafile = true
 
 [[files]]
