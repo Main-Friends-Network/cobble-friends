@@ -181,6 +181,11 @@ hash = "f7050215fab11bc7441dd2b3493f4791828a380d59b251e758573d4a4d1ac13c"
 metafile = true
 
 [[files]]
+file = "mods/fusion-connected-textures.pw.toml"
+hash = "d88788a00e76a1c7489776cddff1e9179676e842a7cd9f04b59ebc9b3e40c7ac"
+metafile = true
+
+[[files]]
 file = "mods/iris.pw.toml"
 hash = "f67aa60c765593a8c70f78296a460349c6aef5f4a16d173eae02e8803b545ad4"
 metafile = true
@@ -233,6 +238,16 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "0281ed9713f3141bdac363056a791845510e14761ea65b4b2813cf96d664b20a"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-config-lib.pw.toml"
+hash = "62bd7012826fdcccf17a089055be67f87fb7335c88e73efc52bc9e51a1bf3188"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-core-lib.pw.toml"
+hash = "2c297fb87d09bd4203399e865d48a10aa82016c53b6767b10b43726e111a3566"
 metafile = true
 
 [[files]]
