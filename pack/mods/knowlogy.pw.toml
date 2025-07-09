@@ -1,0 +1,13 @@
+name = "Knowlogy Book"
+filename = "knowlogy-neoforge-0.8.1-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/V4OTaHaq/versions/XoAmZAES/knowlogy-neoforge-0.8.1-1.21.1.jar"
+hash-format = "sha512"
+hash = "98541d5a73377ab8701dfb27a3e77012e5e15778bf90bda449e90396125010ce20b69fe4a197f4e04e19f2e7973b5944de2f9d4596a0a78ee2ea283c42b3edea"
+
+[update]
+[update.modrinth]
+mod-id = "V4OTaHaq"
+version = "XoAmZAES"

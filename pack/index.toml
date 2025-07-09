@@ -76,8 +76,18 @@ hash = "bebe228f7699954228a88552a04e938823e689df2e7f9c872d7e6480ed0aba08"
 metafile = true
 
 [[files]]
+file = "mods/connector.pw.toml"
+hash = "9f920c5f1df2577cf374285e4aad4f2982a30ea2a3da1cf7ddaf25e04b3a2e31"
+metafile = true
+
+[[files]]
 file = "mods/curios.pw.toml"
 hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
+metafile = true
+
+[[files]]
+file = "mods/forgified-fabric-api.pw.toml"
+hash = "5b34f5aff5000de94ed9e132315bad7288a72a9cbb8f902df2799a579433b7af"
 metafile = true
 
 [[files]]
@@ -126,8 +136,23 @@ hash = "f67aa60c765593a8c70f78296a460349c6aef5f4a16d173eae02e8803b545ad4"
 metafile = true
 
 [[files]]
+file = "mods/knowlogy.pw.toml"
+hash = "f092b35e3b003cd7a305c68a0c00c450b489ac36c22282d2ec56f77dff822d56"
+metafile = true
+
+[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "297eb75ce1aedc28f183a8891fde9c67318953e6c8adf3d7531a17b211f9349d"
+metafile = true
+
+[[files]]
+file = "mods/lavender.pw.toml"
+hash = "7dc27df21d8bd6b4e5387592063817c7de24a7e3ce8c90bb6bf3a9e22199d5e5"
+metafile = true
+
+[[files]]
+file = "mods/owo-lib.pw.toml"
+hash = "7ec6e5aab74e9427df771c614be3c01ecc156af653104693387387ce033934fa"
 metafile = true
 
 [[files]]
