@@ -31,6 +31,11 @@ hash = "d21c41437169bb49b9b92bc97a2f05daa45bcd56744f590a2a858840a5f56044"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-knowlogy.pw.toml"
+hash = "3cd677840a0a75ccf597b6da30805564db0d57760d571b58f4fcbed3b5b27755"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-mega-showdown.pw.toml"
 hash = "0f5fb344db32775eeb9f4d2d182c025b8bfe4e0c636aa22c965890d9382bbd66"
 metafile = true
