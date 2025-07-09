@@ -1,8 +1,53 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "6d3a1c92eee4dd671253c41ec000ae48064a33c45263d6adce5cad466395169d"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon.pw.toml"
 hash = "e3cb1eb238192071af93f764e3ff2c493f4f437802bb56273f664bafdea13f1d"
+metafile = true
+
+[[files]]
+file = "mods/ftb-essentials.pw.toml"
+hash = "ed2c987edef80404213abdba45b78e0af7d5d1e1ce73b160e7216b735199f877"
+metafile = true
+
+[[files]]
+file = "mods/ftb-filter-system.pw.toml"
+hash = "4ca6834eea493931f526ed26efb9bc0e12bd7a8b8f94d1d40f83665778f758d6"
+metafile = true
+
+[[files]]
+file = "mods/ftb-library-forge.pw.toml"
+hash = "3e4702736067acc767a732b50f6558971d3dd942e42cea467d3f14e9e2d134e9"
+metafile = true
+
+[[files]]
+file = "mods/ftb-quests-forge.pw.toml"
+hash = "90afcc7154c06f3d77f288605f2854a19cf15c184c592ce67d132ae7cd6f9ae4"
+metafile = true
+
+[[files]]
+file = "mods/ftb-ranks-forge.pw.toml"
+hash = "726b14494232ae10c257d3d96ff56e7f1814063b499057e7051d57055a2f4e9f"
+metafile = true
+
+[[files]]
+file = "mods/ftb-teams-forge.pw.toml"
+hash = "38d1ce888e383fb1bd1d3648d0ee26b643a697d3ac91e7fdb144cad3f9f55748"
+metafile = true
+
+[[files]]
+file = "mods/ftb-ultimine-forge.pw.toml"
+hash = "7bc312d02fc13543cf83703bee020835d9e4ccd4237dc376f8cdd7a2970ce8c1"
+metafile = true
+
+[[files]]
+file = "mods/ftb-xmod-compat.pw.toml"
+hash = "f7050215fab11bc7441dd2b3493f4791828a380d59b251e758573d4a4d1ac13c"
 metafile = true
 
 [[files]]
