@@ -226,6 +226,11 @@ hash = "7dc27df21d8bd6b4e5387592063817c7de24a7e3ce8c90bb6bf3a9e22199d5e5"
 metafile = true
 
 [[files]]
+file = "mods/lithium.pw.toml"
+hash = "b8ce87d9a7164676e68e69e9e6706cd6e9123b1fe740612b1ba39b43ce8675ef"
+metafile = true
+
+[[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "7ec6e5aab74e9427df771c614be3c01ecc156af653104693387387ce033934fa"
 metafile = true
