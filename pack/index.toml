@@ -11,6 +11,11 @@ hash = "9a9d6bf3715b20cbf83b967e4dd8b77972d1256e52a7b1c2bbfa4122f5acc931"
 metafile = true
 
 [[files]]
+file = "mods/cable-tiers.pw.toml"
+hash = "73fea2c6139df9c1a6b2d16859665cff6f8012449ead5565a43f760549d3d672"
+metafile = true
+
+[[files]]
 file = "mods/chipped.pw.toml"
 hash = "24c6c3fe917ffbcef04e788dec3e003d0ed03433bc00f9cf4f23fe9b85636aa7"
 metafile = true
@@ -136,6 +141,11 @@ hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
 metafile = true
 
 [[files]]
+file = "mods/edivadlib.pw.toml"
+hash = "e2ee2481b63a012bdfb8c9f588788dd2f116ff48298014bb3e00d08a224fe14f"
+metafile = true
+
+[[files]]
 file = "mods/exposure-knowlogy.pw.toml"
 hash = "0e56dabe70931ecd8a054234cc079291a3033b91632cd376103f19d2117bd022"
 metafile = true
@@ -143,6 +153,16 @@ metafile = true
 [[files]]
 file = "mods/exposure.pw.toml"
 hash = "10ec5a4494ad86a474216b089765476bbb53b2c66cbcaac7ed2a2f400c2dcc91"
+metafile = true
+
+[[files]]
+file = "mods/extra-disks.pw.toml"
+hash = "95a3e01edaa17610c3aee00f7cfdbf981bb43ec90e65281935c48601bf8b4b1d"
+metafile = true
+
+[[files]]
+file = "mods/extrastorage.pw.toml"
+hash = "3c242c20cc1c5ef446abf5f56a1e0624bfd038ee3bc685435cec846b0051aab0"
 metafile = true
 
 [[files]]
@@ -266,6 +286,26 @@ hash = "f70753b73b9baee1550e932231cdca1da45c4516c6b7b8763a2a164e0bf375ce"
 metafile = true
 
 [[files]]
+file = "mods/refined-storage-curios-integration.pw.toml"
+hash = "ce6f405d86fa560f11825b1c92ac8ffe27e5d8b5e1e576ca9b464bb35bbe6c7a"
+metafile = true
+
+[[files]]
+file = "mods/refined-storage-jei-integration.pw.toml"
+hash = "fd3e3dd73614b09899f5a445f989fd4f43c36a67e6a4c986f1263edbc5239944"
+metafile = true
+
+[[files]]
+file = "mods/refined-storage-quartz-arsenal.pw.toml"
+hash = "70934c46b0be9b832ff634f444730a9209e155eccf914f628edfa28675fd8e9c"
+metafile = true
+
+[[files]]
+file = "mods/refined-storage.pw.toml"
+hash = "0bdf00282ab81f673f763a2a0afbe76d499f5193f5e738eef333fc131922d5e3"
+metafile = true
+
+[[files]]
 file = "mods/resourceful-lib.pw.toml"
 hash = "c0b066684294c33972d562e0cb08ea17b2d31bcf86cd1d6c63b8e968f0eac7a2"
 metafile = true
@@ -318,6 +358,11 @@ metafile = true
 [[files]]
 file = "mods/toms-storage.pw.toml"
 hash = "b54e608b4b97246d87e862104a289fd529ffbd3248e4c26268729c14efa5aabd"
+metafile = true
+
+[[files]]
+file = "mods/universal-grid.pw.toml"
+hash = "3f73407760212dd4f4b0b6bbbc8546ae56ff953b02c739db7f23a48567ec9fd6"
 metafile = true
 
 [[files]]

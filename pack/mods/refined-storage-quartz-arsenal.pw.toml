@@ -1,0 +1,13 @@
+name = "Refined Storage - Quartz Arsenal"
+filename = "refinedstorage-quartz-arsenal-neoforge-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gnwGOmBf/versions/U0ktFwRH/refinedstorage-quartz-arsenal-neoforge-1.0.0.jar"
+hash-format = "sha512"
+hash = "905a7f225ebe2ff7c3eedaf71bb874925641ca99d5ce1e356d886f01b41cf813aea2b83ce3ba5f5fd0b30d4a391b1c249eebe32358a8da61fe3013f060645d88"
+
+[update]
+[update.modrinth]
+mod-id = "gnwGOmBf"
+version = "U0ktFwRH"

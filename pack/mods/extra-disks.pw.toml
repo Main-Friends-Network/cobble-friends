@@ -1,0 +1,13 @@
+name = "Extra Disks"
+filename = "ExtraDisks-1.21.1-4.0.11.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Tlo2tahX/versions/NTu6eRax/ExtraDisks-1.21.1-4.0.11.jar"
+hash-format = "sha512"
+hash = "7d9ae82c46e0aaed57b43b09a4965e58e7e01ebd73ab168ece5b0093e1fbb9645f0fca914db9679c191b662653843ae0d59410bb6788328a9eaa3b497bfdda79"
+
+[update]
+[update.modrinth]
+mod-id = "Tlo2tahX"
+version = "NTu6eRax"
