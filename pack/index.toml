@@ -54,3 +54,13 @@ metafile = true
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "297eb75ce1aedc28f183a8891fde9c67318953e6c8adf3d7531a17b211f9349d"
 metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-animations-extensions.pw.toml"
+hash = "1e690507e5762bb3179c19950d765e7aa06a2999cdf18eaa9db4e4ab478fb213"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-animations.pw.toml"
+hash = "b96abadb2cdb56d53145609e6a8ee9fd70171878bb5414412dddee1fca902a7b"
+metafile = true
