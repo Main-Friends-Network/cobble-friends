@@ -181,6 +181,16 @@ hash = "0281ed9713f3141bdac363056a791845510e14761ea65b4b2813cf96d664b20a"
 metafile = true
 
 [[files]]
+file = "mods/toms-storage-knowlogy.pw.toml"
+hash = "769bededf3f37eb96d01a47d51126985c2bbe9e799650156a7ae9ac16faad2fb"
+metafile = true
+
+[[files]]
+file = "mods/toms-storage.pw.toml"
+hash = "b54e608b4b97246d87e862104a289fd529ffbd3248e4c26268729c14efa5aabd"
+metafile = true
+
+[[files]]
 file = "resourcepacks/fresh-animations-extensions.pw.toml"
 hash = "1e690507e5762bb3179c19950d765e7aa06a2999cdf18eaa9db4e4ab478fb213"
 metafile = true
