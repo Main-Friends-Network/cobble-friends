@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cobble Friends</title>
+  <style>
+    :root {
+      --accent: #3b82f6;
+      --dark: #1f2937;
+      --light: #f3f4f6;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--dark);
+      background: var(--light);
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background: var(--accent);
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 0.5rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 0.75rem;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      flex: 1;
+      padding: 2rem;
+      max-width: 960px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    h1 {
+      margin-bottom: 1rem;
+      font-size: 2.25rem;
+    }
+
+    section {
+      margin-bottom: 2rem;
+      background: white;
+      padding: 1.5rem 2rem;
+      border-radius: 0.75rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+
+    footer {
+      background: var(--dark);
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.875rem;
+    }
+
+    ul, ol {
+        margin-left:16px;
+    }
+
+
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      background: var(--accent);
+      color: white;
+      padding: 0.6rem 1.2rem;
+      border-radius: 0.5rem;
+      text-decoration: none;
+      transition: background 0.2s ease;
+    }
+
+    .btn:hover {
+      background: #2563eb;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cobble Friends</h1>
+    <!-- <nav>
+      <a href="#about">Über</a>
+      <a href="#download">Download</a>
+      <a href="#contact">Kontakt</a>
+    </nav> -->
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>Was ist Cobble Friends?</h2>
+      <p>
+        Cobble Friends ist ein Modpack für Minecraft, das von der
+        Minecraft-Friends-Community entwickelt wurde. Es bietet einen Fokus auf Cobblemon und Create
+        und kombiniert diese mit einer Vielzahl von anderen Mods, um ein
+        einzigartiges Spielerlebnis zu schaffen. 
+      </p>
+      <br/>
+      <p>Das Modpack ist für die Minecraft-Version 1.21.1</p>
+    </section>
+
+    <section id="features">
+      <h2>Modpack Features</h2>
+      <p>
+        Cobble Friends bietet eine Vielzahl von Mods, die das Spielerlebnis
+        erweitern. Hier sind einige der wichtigsten Features:
+      </p>
+      <ul>
+        <li>Integration von Cobblemon für Pokémon-Fans</li>
+        <li>Erweiterte Automatisierungsmöglichkeiten mit Create</li>
+        <li>Optimierte Performance und Stabilität</li>
+        <li>Regelmäßige Updates und Bugfixes</li>
+      </ul>
+    </section>    
+
+    <section id="download">
+      <h2>Installation</h2>
+      <p>
+        Um Cobble Friends zu installieren, benötigst du den <strong>Prism Launcher</strong>.
+        
+        <br />
+        <br />
+
+        Installiere dir den Prism Launcher von
+        <a href="https://prismlauncher.org/">prismlauncher.org</a> und
+        füge das Modpack hinzu, indem du die folgenden Schritte befolgst:
+      </p>
+      <br/>
+      <ol>
+        <li>Öffne den Prism Launcher.</li>
+        <li>Klicke auf "Instanz erstellen" in der oberen Leiste.</li>
+        <li>Wähle "Importieren".</li>
+        <li>Gib die URL des Modpacks ein:
+          <code>https://cobble.minecraft-friends.de/modpack/Cobble%20Friends.zip</code> <strong>(will be later on changed to GitHub latest release)</strong>
+        </li>
+        <li>Klicke auf "OK".</li>
+        <li>Starte das Modpack.</li>
+      </ol>
+      </p>
+      <!-- <a class="btn" href="/modpack/pack.toml">pack.toml anzeigen</a> -->
+    </section>
+
+    <section id="modlist">
+      <h2>Modliste</h2>
+      <p>
+        Hier ist eine Liste der Mods, die in Cobble Friends enthalten sind:
+      </p>
+      <ul>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/cobblemon">Cobblemon</a> - Pokémon in Minecraft</li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/create">Create</a> - Erweiterte Automatisierung und Maschinen</li>
+        <li>[..]</li>
+      </ul>
+    </section>       
+
+  <footer>
+    &copy; <span id="year"></span> Cobble Mon – Ein Projekt von
+    Minecraft‑Friends
+  </footer>
+
+  <script>
+    // Aktuelles Jahr dynamisch einsetzen
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

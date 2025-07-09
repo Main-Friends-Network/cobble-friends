@@ -1,0 +1,11 @@
+# docker-compose.yml
+version: "3.9"
+services:
+  packwiz-serve:
+    build: .
+    volumes:
+      - ./pack/:/workspace
+    working_dir: /workspace
+    command: serve
+    ports:
+      - "8080:8080"
