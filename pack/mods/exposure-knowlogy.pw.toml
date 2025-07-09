@@ -1,0 +1,13 @@
+name = "Exposure Knowlogy"
+filename = "exposure_knowlogy-neoforge-1.1.0-1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/onbX6Nsj/versions/ITAzbibo/exposure_knowlogy-neoforge-1.1.0-1.21.1.jar"
+hash-format = "sha512"
+hash = "140b01474d5a7ca13a694ef92f01505657343fa207e1b038f89bf31ee01379d8900063c3e2924fdfbc99c992daca2e7d90512600f1cf7d5c5b2da2f53f3d2570"
+
+[update]
+[update.modrinth]
+mod-id = "onbX6Nsj"
+version = "ITAzbibo"

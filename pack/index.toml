@@ -91,6 +91,16 @@ hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
 metafile = true
 
 [[files]]
+file = "mods/exposure-knowlogy.pw.toml"
+hash = "0e56dabe70931ecd8a054234cc079291a3033b91632cd376103f19d2117bd022"
+metafile = true
+
+[[files]]
+file = "mods/exposure.pw.toml"
+hash = "10ec5a4494ad86a474216b089765476bbb53b2c66cbcaac7ed2a2f400c2dcc91"
+metafile = true
+
+[[files]]
 file = "mods/forgified-fabric-api.pw.toml"
 hash = "5b34f5aff5000de94ed9e132315bad7288a72a9cbb8f902df2799a579433b7af"
 metafile = true
