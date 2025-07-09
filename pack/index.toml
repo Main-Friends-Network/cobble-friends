@@ -37,7 +37,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "6a9ca5c65d6ba60d1a9e5c8c3d9607fd70a6912dabe8f99cc74de4233d68108f"
+hash = "ea336d25c3e21ef168aec20e1ea470c96949ad29632646ee8e8ab0d74b4bbfc9"
 metafile = true
 
 [[files]]
@@ -116,18 +116,13 @@ hash = "2acaff560bbda5741538528a2967355ec86a8f7564adba0b2316989c66892374"
 metafile = true
 
 [[files]]
-file = "mods/cobbledollars.pw.toml"
-hash = "f8f24938d865a76f46ddeec0a9f648514bf862574786c288749b099b2c8273c9"
-metafile = true
-
-[[files]]
 file = "mods/cobblemon-additions.pw.toml"
 hash = "c31d3776a2361f758c32c1a2f4cbb654228c69045b7496daf10631e2221ed2f0"
 metafile = true
 
 [[files]]
 file = "mods/cobblemon-badgebox.pw.toml"
-hash = "47c211d3c88a45003f3eab0b9e21dbb94eb44563891cc9ca958207759fc58020"
+hash = "fd3b2ee6f4fa70e5ef3a72a583e24cf0de12ae0b15e4b2f7a4642195a8213589"
 metafile = true
 
 [[files]]
@@ -137,12 +132,12 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-fight-or-flight-reborn.pw.toml"
-hash = "9beb0109386d22167c22d33c1df6573c73e645c8441173ba57ce185af598e17b"
+hash = "6b3fdd230197be5398fb4bdd973855730d57e306a11cd202d631219934fbdc4b"
 metafile = true
 
 [[files]]
 file = "mods/cobblemon-integrations.pw.toml"
-hash = "0aa3b8c4752d0f6c85dff3cfa884c65476c5fad02869b4f2ba7004b8eef74c00"
+hash = "d21c41437169bb49b9b92bc97a2f05daa45bcd56744f590a2a858840a5f56044"
 metafile = true
 
 [[files]]
@@ -152,12 +147,12 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-mega-showdown.pw.toml"
-hash = "6dabb8d60a4498089fec7879c8203ed79041b048262799e54dc466bbbf865570"
+hash = "0f5fb344db32775eeb9f4d2d182c025b8bfe4e0c636aa22c965890d9382bbd66"
 metafile = true
 
 [[files]]
 file = "mods/cobblemon-move-inspector.pw.toml"
-hash = "f799664c79ed1ec4c63dd6b555fe406c53bb6114b3585543b63743088d7ba7ee"
+hash = "b042cc9ab27d9d15a9919f9879d0c06ae0422b4c3b8fa9933345af20435da397"
 metafile = true
 
 [[files]]
@@ -167,22 +162,22 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-pokemon-badges.pw.toml"
-hash = "17284f4c192fdca5f5c77e3edb661c2c8b901320a11c06eecdc72176e3bb96d5"
+hash = "1f2cd45c3decc1215fca84fb3df356d017f17dbd130f18704fea55772a140adf"
 metafile = true
 
 [[files]]
 file = "mods/cobblemon-pokenav.pw.toml"
-hash = "84a3ddd064b318937eeace2b6e29620b97a4e9dd5fd345a2876aab2e4e3fefc8"
+hash = "0d1d81244b3898bfeced61aaba79e063ced9778f0c70aaddd0bd2442131066b5"
 metafile = true
 
 [[files]]
 file = "mods/cobblemon-quests.pw.toml"
-hash = "36e800985b1138e1be3791e62825d589b0cdae81cc2f5353eacf2a6d9b0e0ce7"
+hash = "bf88bd18d28dbd1bd34f5db7a188463dce4ae3868c969566bc0179c3eef2ce78"
 metafile = true
 
 [[files]]
 file = "mods/cobblemon-ride-on.pw.toml"
-hash = "658c93a6ba0476f741a4d164a1ccd1e85ac9a1b0ff6df073b1c8c34ce56761cc"
+hash = "63d78f5b82e034c0ba8dde7baeaa941466996125bbd67f996aab2f3e279afa4b"
 metafile = true
 
 [[files]]
@@ -192,7 +187,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-spawn-notification.pw.toml"
-hash = "9f76250dae80fabd822d28663a996c819ea00c8ddf5183917cfe7cd316345187"
+hash = "ad4ebdfeb5c20ecba5c791791d8dc71a51d137af34694d7a0cd390aaac18a517"
 metafile = true
 
 [[files]]
@@ -202,7 +197,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemonextrastructures.pw.toml"
-hash = "40dfc0df7a3fd05f466c7c834ca00fff39045040cdcaea5e4ada85e05897c264"
+hash = "bebe228f7699954228a88552a04e938823e689df2e7f9c872d7e6480ed0aba08"
 metafile = true
 
 [[files]]
