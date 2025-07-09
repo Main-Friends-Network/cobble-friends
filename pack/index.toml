@@ -241,6 +241,11 @@ hash = "c0b066684294c33972d562e0cb08ea17b2d31bcf86cd1d6c63b8e968f0eac7a2"
 metafile = true
 
 [[files]]
+file = "mods/selling-bin.pw.toml"
+hash = "e7a51da746ad837f91e6fb3b430f26ef62a39140fd8e36f141b6b9c944b173d9"
+metafile = true
+
+[[files]]
 file = "mods/simpletms-tms-and-trs-for-cobblemon.pw.toml"
 hash = "f8ba20a06c8391dedc25741ab2817e1af2bfb9a182eee248471dae4b41eb7d77"
 metafile = true
