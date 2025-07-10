@@ -21,6 +21,11 @@ hash = "cb96cee37aeb38e012b1b85b10f0aa888b3875c84103e6981b13df389cbd8074"
 metafile = true
 
 [[files]]
+file = "mods/almost-unified.pw.toml"
+hash = "cf71bda14feddbce48d4c01b42b7734f0a42c42a473c9fe4c6720c43b7c668e6"
+metafile = true
+
+[[files]]
 file = "mods/amendments.pw.toml"
 hash = "1fa5075c1ebd310416d705674d6ae90975fa8971ce6cf04478f548a18c58d0da"
 metafile = true
