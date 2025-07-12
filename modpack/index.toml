@@ -6,6 +6,11 @@ hash = "548503dc0006297f8efaf0312e54ed6cba514469fffe724a7c14f6c38c1ca22f"
 metafile = true
 
 [[files]]
+file = "config/paxi/datapacks/cobblemon-additions.pw.toml"
+hash = "bc100b7aff5c9cf7cd26544b9b4fa6da50659084e7a993beb5bd33118b8de34e"
+metafile = true
+
+[[files]]
 file = "config/paxi/resourcepacks/allthemons-x-mega-showdown-legacy.pw.toml"
 hash = "548503dc0006297f8efaf0312e54ed6cba514469fffe724a7c14f6c38c1ca22f"
 metafile = true
