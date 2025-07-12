@@ -1,0 +1,7 @@
+name = "allthemons-x-mega-showdown-legacy"
+filename = "AllTheMons x Mega Showdown [v2.7].zip"
+
+[download]
+url = "https://cdn.modrinth.com/data/odZZdRCE/versions/vGXByoxl/AllTheMons%20x%20Mega%20Showdown%20%5Bv2.7%5D.zip"
+hash-format = "sha256"
+hash = "835ba42bb22db9dda30575b0344fef73e052ff44dd998278ec02b09e644064b8"

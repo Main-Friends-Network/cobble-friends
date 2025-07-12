@@ -1,6 +1,16 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/paxi/datapacks/allthemons-x-mega-showdown-legacy.pw.toml"
+hash = "548503dc0006297f8efaf0312e54ed6cba514469fffe724a7c14f6c38c1ca22f"
+metafile = true
+
+[[files]]
+file = "config/paxi/resourcepacks/allthemons-x-mega-showdown-legacy.pw.toml"
+hash = "548503dc0006297f8efaf0312e54ed6cba514469fffe724a7c14f6c38c1ca22f"
+metafile = true
+
+[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "1ed9d54872a780939283c1f2d18475e48cf6e306931dd6c0f1ba2cef1017ab45"
 metafile = true
@@ -147,7 +157,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-mega-showdown.pw.toml"
-hash = "6dabb8d60a4498089fec7879c8203ed79041b048262799e54dc466bbbf865570"
+hash = "ed5c120b7c9e8ddd1f14e6b9776f48d04e167f0d9710de4d6ceee919c1879d07"
 metafile = true
 
 [[files]]
@@ -461,11 +471,6 @@ hash = "dbd756dd9bb17e6ecebcf2d7052a67a2da1c7dd378bc2089bc154916080fe031"
 metafile = true
 
 [[files]]
-file = "mods/globalpacks.pw.toml"
-hash = "a7f2ae8ea415e95ce1a3518b66edcaf124d8903ff9101d07331f7fec92b3400f"
-metafile = true
-
-[[files]]
 file = "mods/gravestone-mod.pw.toml"
 hash = "eac8c50911e50ebf1741958fd80ac0d1342d65692536effec89da951e01cb88e"
 metafile = true
@@ -738,6 +743,11 @@ metafile = true
 [[files]]
 file = "mods/packet-fixer.pw.toml"
 hash = "54b1a62c202dd0406129bb15c76e1c5e4677a033b375de2ccd456e9a31b95d1a"
+metafile = true
+
+[[files]]
+file = "mods/paxi.pw.toml"
+hash = "215d597764d5c5db89e700fc3495b72dc0a7f09c975de19dc8c580bde3469a5e"
 metafile = true
 
 [[files]]

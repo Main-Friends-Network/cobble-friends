@@ -1,13 +1,13 @@
 name = "Cobblemon: Mega Showdown"
-filename = "Cobblemon_MegaShowdown-9.8.0-beta-neoforge.jar"
+filename = "Cobblemon_MegaShowdown-9.8.2-release-neoforge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/SszvX85I/versions/EHVouyL0/Cobblemon_MegaShowdown-9.8.0-beta-neoforge.jar"
+url = "https://cdn.modrinth.com/data/SszvX85I/versions/c8ZXR0Lq/Cobblemon_MegaShowdown-9.8.2-release-neoforge.jar"
 hash-format = "sha512"
-hash = "6a3e41aa7b676e88348482fe5b4ab0d4446e4685ecba5431b90d3a5b95bfbf6da347ec19bbe0a7865673e47ec2f76a5697155c466baea687f222cf269028de91"
+hash = "92ab65a54577157583ce5b392b8f095a1a228a73ba449de1825d71c4e5296344526c4874b20bdca087192726bee5168a4a4bb8ab6ddc9ea59e527966cc9d059a"
 
 [update]
 [update.modrinth]
 mod-id = "SszvX85I"
-version = "EHVouyL0"
+version = "c8ZXR0Lq"
