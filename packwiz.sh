@@ -10,6 +10,6 @@ IMAGE="packwiz:latest"
 
 # Aktuelles Verzeichnis + /pack als Volume mounten
 docker run --rm -it \
-    -v "$(pwd)/pack:/workspace" \
+    -v "$(pwd)/modpack:/workspace" \
     -w /workspace \
     "$IMAGE" "$@"

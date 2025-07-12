@@ -4,7 +4,7 @@ services:
   packwiz-serve:
     build: .
     volumes:
-      - ./pack/:/workspace
+      - ./modpack/:/workspace
     working_dir: /workspace
     command: serve
     ports:

@@ -77,7 +77,7 @@ To add mods from curseforge run `.\packwiz.ps1 curseforge install <slug>/<modpag
 
 For a offical documentation please refer to https://packwiz.infra.link/tutorials/creating/adding-mods/#internal-files-config-files-scripts-etc.
 
-To distribute config you need to create a folder `config` at your `pack` folder. In this folder you need to place all the config which you want to distribute.
+To distribute config you need to create a folder `config` at your `modpack` folder. In this folder you need to place all the config which you want to distribute.
 
 As distributing the config files directly causes a overwrite on the user side, always use the mod [DefaultOptions](https://github.com/TwelveIterationMods/DefaultOptions) so the configs are only initially set and not overwritten.
 
@@ -87,7 +87,7 @@ If you want to include additional files (e.g. mod configs) you need to include t
 
 Folder structure
 ````
-/pack/config/
+/modpack/config/
 └───defaultoptions/
     │   keybindings.txt
     │   options.txt
@@ -138,7 +138,7 @@ This allows the java client itself to download the mods itself via a packwiz-ins
 
 ### Serve pack index
 
-You need a public webserver which serves the generated files in ``/pack`` from packwiz. 
+You need a public webserver which serves the generated files in ``/modpack`` from packwiz. 
 
 Given that youre serving the ``pack.toml`` at http://mymodpack.com, you can open http://mymodpack.com/pack.toml at your webbrowser and see the value of your pack.toml file.
 

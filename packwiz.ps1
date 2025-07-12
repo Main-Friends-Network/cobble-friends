@@ -8,6 +8,6 @@ $image = "packwiz:latest"
 
 # Aktuellen Arbeitsordner ins Container-Volume einhängen
 docker run --rm -it `
-    -v "${PWD}/pack:/workspace" `
+    -v "${PWD}/modpack:/workspace" `
     -w /workspace `
     $image @Args
