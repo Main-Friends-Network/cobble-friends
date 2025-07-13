@@ -1,6 +1,86 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/defaultoptions/chunkloaders-common.toml"
+hash = "349e2650bcdb4ec61b5f254df8e256a08e6d90b01e23fefaf9c50773c2bec405"
+
+[[files]]
+file = "config/defaultoptions/cobblemonintegrations-common.toml"
+hash = "1c5d457a1378805a6fd758b4ff6094fe64e63d33a85a6995c6eb61db7773162c"
+
+[[files]]
+file = "config/defaultoptions/comforts-server.toml"
+hash = "653a28f882021efb39bc8c65ea24d06da7d6d5783b83797e8a233679c6089a8b"
+
+[[files]]
+file = "config/defaultoptions/ftbessentials.snbt"
+hash = "fe0d1935e29e4e6d8d4c07fb4d1725c59c12805ca838d82dbc4f4704f715af80"
+
+[[files]]
+file = "config/defaultoptions/jmi-client.toml"
+hash = "b14772a3ae94f95ed4d3d790cca37a79def340bc1babe97e1ee7aad17141677f"
+
+[[files]]
+file = "config/defaultoptions/keybindings.txt"
+hash = "dc9543aa452e0aeebad85af37e8de2b21140a7043436bc67d1fe79e4b4283f4e"
+
+[[files]]
+file = "config/defaultoptions/lightmanscurrency-client.txt"
+hash = "5c22fb50b37a8a2f96649ca6aef242255103f8b3db49c99e6a53e29ba64e1fed"
+
+[[files]]
+file = "config/defaultoptions/lightmanscurrency-common.txt"
+hash = "686c00c24c4209bb3701e91aa43b3f106a4da495861ca5c02223e82f1218af5e"
+
+[[files]]
+file = "config/defaultoptions/lightmanscurrency-server.txt"
+hash = "b65bddb762be232b511243ecb3930e5e139ce06b39545d25a882b83f674aae17"
+
+[[files]]
+file = "config/defaultoptions/lightmanscurrency/MasterCoinList.json"
+hash = "ee31f783c6c8ae53e7a56bd6b0ae8568b820f8373e4bba76d630b1937d398948"
+
+[[files]]
+file = "config/defaultoptions/lightmanscurrency/PersistentTraders.json"
+hash = "95e8f6a7f8690592aef9cd84ce5d9b10ccd245ccf8e8e8ed5701c3aff7ca9fb8"
+
+[[files]]
+file = "config/defaultoptions/lightmanscurrency/SeasonalEvents.json"
+hash = "94831f6bf2afca9990a8efb580589d61fffb986073fe4b07e99d7753de4ff965"
+
+[[files]]
+file = "config/defaultoptions/lootr-common.toml"
+hash = "ca72d423181e1184f0a49c88b14f20e2aad2be219514a3af0ddbe4212603198f"
+
+[[files]]
+file = "config/defaultoptions/naturescompass-common.toml"
+hash = "00da1c5c36379d7a69ab1b601a3ff2dcf4fedd59b29a4456993cf630f8747b13"
+
+[[files]]
+file = "config/defaultoptions/securitycraft-client.toml"
+hash = "956e63354bbc984365996018abc9b4d5595f3f55d540c2a80d88a28eb9015a73"
+
+[[files]]
+file = "config/defaultoptions/securitycraft-server.toml"
+hash = "6f8a0c756dfcca6458ec719e930066d85182b1d6e977544a916d43bff4c54160"
+
+[[files]]
+file = "config/defaultoptions/sophisticatedbackpacks-server.toml"
+hash = "a79d04eb42dbd6a166d6575c4ba0c1b30417c2e441c21808330d9ff29ef07d57"
+
+[[files]]
+file = "config/defaultoptions/spawn_notification.json"
+hash = "fb76100ad334adf1fe92ea16ea61e9c10f4a3167b7eb8d16e8bb4e4b98373439"
+
+[[files]]
+file = "config/defaultoptions/voicechat/voicechat-server.properties"
+hash = "89724ab34223377f3c32fb28711ba7f286f50aedacc83b959cbdde2b2a2002bc"
+
+[[files]]
+file = "config/defaultoptions/xaerominimap-common.txt"
+hash = "80b5ed75325ac12cede8bad7907c0b7bb9993c296103b04614ca01fabdd4d03e"
+
+[[files]]
 file = "config/paxi/datapacks/allthemons-x-mega-showdown-legacy.pw.toml"
 hash = "548503dc0006297f8efaf0312e54ed6cba514469fffe724a7c14f6c38c1ca22f"
 metafile = true
@@ -363,11 +443,6 @@ metafile = true
 [[files]]
 file = "mods/expanded-delight.pw.toml"
 hash = "08383f7378f7bed0d61c328b1501dae5045356d328014a074e35aed601edba3b"
-metafile = true
-
-[[files]]
-file = "mods/explorers-compass.pw.toml"
-hash = "de5ea0b6d6c303af3788a178996c39f46d260cd15a86121b1246b3591913d256"
 metafile = true
 
 [[files]]
