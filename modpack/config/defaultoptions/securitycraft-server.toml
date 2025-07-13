@@ -41,7 +41,7 @@ disable_thanks_message = false
 #Set this to true if you want players wearing a different player's skull to be able to trick their retinal scanners and scanner doors into activating.
 trick_scanners_with_player_heads = true
 #Set this to true to prevent players from glitching through a floor made of reinforced blocks using a boat. This is achieved by not letting players exit a boat in a way that would place them inside reinforced blocks.
-prevent_reinforced_floor_glitching = false
+prevent_reinforced_floor_glitching = true
 #Set the amount of damage the taser inflicts onto the mobs it hits. Default is half a heart.
 # Default: 1.0
 # Range: 0.0 ~ 1.7976931348623157E308
