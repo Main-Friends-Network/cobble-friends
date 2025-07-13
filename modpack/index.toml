@@ -10,7 +10,7 @@ hash = "1c5d457a1378805a6fd758b4ff6094fe64e63d33a85a6995c6eb61db7773162c"
 
 [[files]]
 file = "config/defaultoptions/comforts-server.toml"
-hash = "653a28f882021efb39bc8c65ea24d06da7d6d5783b83797e8a233679c6089a8b"
+hash = "c56f27ff6816bc52c06a6f969cbd5e89c3fef146bd056ae0c299e2d77a6551df"
 
 [[files]]
 file = "config/defaultoptions/ftbessentials.snbt"
