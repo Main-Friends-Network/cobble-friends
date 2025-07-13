@@ -117,7 +117,7 @@
 	#0.0 is a 0% chance, and 1.0 is a 100% chance
 	#Range: 0.0 -> 1.0
 	#Default: 0.0
-	coinLossChance=0.0
+	coinLossChance=1
 	
 	#The minimum distance a Money Bag must fall before it has a chance to drop coins when it lands
 	#Range: 0 -> 2147483647
@@ -324,7 +324,7 @@
 	#0 will allow infinite distance but require that both players be in the same dimension.
 	#Range: -1.0 -> 1.7976931348623157E308
 	#Default: -1.0
-	maxPlayerDistance=-1.0
+	maxPlayerDistance=6.0
 	
 #Tax Settings
 [taxes]
@@ -360,7 +360,7 @@
 [chocolate_coins]
 	#Whether the Chocolate Coins will give players custom potion and/or healing effects on consumption.
 	#Default: true
-	chocolateEffects=true
+	chocolateEffects=false
 	
 #Model Variant Settings
 [model_variants]

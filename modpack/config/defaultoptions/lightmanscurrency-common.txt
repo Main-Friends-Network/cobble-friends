@@ -12,12 +12,12 @@ debugLevel=0
 	#Disabling will not remove any existing Network Traders from the world, nor prevent their use.
 	#Disabling does NOT disable the recipes of Network Upgrades or the Trading Terminals.
 	#Default: true
-	canCraftNetworkTrader=true
+	canCraftNetworkTrader=false
 	
 	#Whether Trader Interface blocks can be crafted.
 	#Disabling will not remove any existing Trader Interfaces from the world, nor prevent their use.
 	#Default: true
-	canCraftTraderInterface=true
+	canCraftTraderInterface=false
 	
 	#Whether Auction Stand blocks can be crafted.
 	#Disabling will not remove any existing Auction Stands from the world, nor prevent their use.
@@ -27,7 +27,7 @@ debugLevel=0
 	#Whether Tax Blocks can be crafted.
 	#Disabling will not remove any existing Tax Blocks from the world, nor prevent their use.
 	#Default: true
-	canCraftTaxCollector=true
+	canCraftTaxCollector=false
 	
 	#Whether ATM Cards can be crafted.
 	#Disabling will not remove any existing ATM Cards from the world, nor prevent their use.
@@ -39,11 +39,11 @@ debugLevel=0
 		#Whether the Coin Mint machine can be crafted.
 		#Disabling will not remove and exist Coin Mints from the world, nor prevent their use.
 		#Default: true
-		canCraftCoinMint=true
+		canCraftCoinMint=false
 		
 		#Whether or not built-in coin mint recipes that turn resources into coins will be loaded.
 		#Default: true
-		canMint=true
+		canMint=false
 		
 		#Whether or not built-in coin mint recipes that turn coins back into resources will be loaded.
 		#Default: false
@@ -101,7 +101,7 @@ debugLevel=0
 			
 			#Whether the default mint recipe to melt netherite coins back into netherite ingots will be loaded.
 			#Default: true
-			netherite=true
+			netherite=false
 			
 	#Money Chest Crafting
 	[crafting.money_chest]
@@ -136,34 +136,34 @@ debugLevel=0
 	#Whether the Chocolate Event Coins will be added to the coin data.
 	#Note: Disabling will not remove any Chocolate Coin items that already exist, this simply makes them no longer function as money
 	#Default: true
-	chocolate=true
+	chocolate=false
 	
 	#Whether custom events defined in the 'SeasonalEvents.json' config can give players the one-time reward for logging in during the event.
 	#Default: true
-	startingRewards=true
+	startingRewards=false
 	
 	#Whether custom events can replace a portion (or all) of the default loot with custom event loot.
 	#Default: true
-	lootReplacements=true
+	lootReplacements=false
 	
 #Villager Related Settings
 #Note: Any changes to villagers requires a full reboot to be applied due to how Minecraft/Forge registers trades.
 [villagers]
 	#Whether Piglins will accept gold coins as a valid bartering item
 	#Default: true
-	piglinsBarterCoins=true
+	piglinsBarterCoins=false
 	
 	#Whether the wandering trader will have additional trades that allow you to buy misc items with money.
 	#Default: true
-	addCustomWanderingTrades=true
+	addCustomWanderingTrades=false
 	
 	#Whether the banker villager profession will have any registered trades. The banker sells Lightman's Currency items for coins.
 	#Default: true
-	addBanker=true
+	addBanker=false
 	
 	#Whether the cashier villager profession will have any registered trades.. The cashier sells an amalgamation of vanilla traders products for coins.
 	#Default: true
-	addCashier=true
+	addCashier=false
 	
 	#Villager Trade Modification
 	#Note: Changes made only apply to newly generated trades. Villagers with trades already defined will not be changed.
@@ -238,7 +238,7 @@ debugLevel=0
 	[loot.entities]
 		#Whether coins can be dropped by entities.
 		#Default: true
-		enabled=true
+		enabled=false
 		
 		#Whether coins can be dropped by entities that were spawned by the vanilla spawner.
 		#Default: false
@@ -247,7 +247,7 @@ debugLevel=0
 		#Whether modded machines that emulate player behaviour can trigger coin drops from entities.
 		#Set to false to help prevent autmated coin farming.
 		#Default: true
-		allowFakePlayerDrops=true
+		allowFakePlayerDrops=false
 		
 		#Entity Drop Lists. Accepts the following inputs:
 		#Entity IDs. e.g. "minecraft:cow"
@@ -312,19 +312,19 @@ debugLevel=0
 		#Chest Spawn Lists
 		[loot.chests.lists]
 			#List of Loot Tables that will also spawn loot from the "lightmanscurrency:loot_addons/chest/tier1" loot table.
-			T1=["minecraft:chests/underwater_ruin_small","minecraft:chests/underwater_ruin_big"]
+			T1=["minecraft:chests/underwater_ruin_small","minecraft:chests/underwater_ruin_big", "minecraft:chests/jungle_temple","minecraft:chests/simple_dungeon","minecraft:chests/ruined_portal"]
 			
 			#List of Loot Tables that will also spawn loot from the "lightmanscurrency:loot_addons/chest/tier2" loot table.
-			T2=[]
+			T2=["minecraft:chests/stronghold_crossing","minecraft:chests/stronghold_corridor","minecraft:chests/stronghold_library","minecraft:chests/ancient_city","minecraft:chests/nether_bridge"]
 			
 			#List of Loot Tables that will also spawn loot from the "lightmanscurrency:loot_addons/chest/tier3" loot table.
-			T3=["minecraft:chests/jungle_temple","minecraft:chests/nether_bridge","minecraft:chests/simple_dungeon","minecraft:chests/ruined_portal"]
+			T3=["minecraft:chests/buried_treasure","minecraft:chests/bastion_hoglin_stable","minecraft:chests/bastion_bridge","minecraft:chests/bastion_other","minecraft:chests/bastion_treasure","minecraft:chests/end_city_treasure"]
 			
 			#List of Loot Tables that will also spawn loot from the "lightmanscurrency:loot_addons/chest/tier4" loot table.
-			T4=["minecraft:chests/stronghold_crossing","minecraft:chests/stronghold_corridor","minecraft:chests/stronghold_library","minecraft:chests/ancient_city"]
+			T4=[]
 			
 			#List of Loot Tables that will also spawn loot from the "lightmanscurrency:loot_addons/chest/tier5" loot table.
-			T5=["minecraft:chests/buried_treasure","minecraft:chests/bastion_hoglin_stable","minecraft:chests/bastion_bridge","minecraft:chests/bastion_other","minecraft:chests/bastion_treasure","minecraft:chests/end_city_treasure"]
+			T5=[]
 			
 			#List of Loot Tables that will also spawn loot from the "lightmanscurrency:loot_addons/chest/tier6" loot table.
 			T6=[]
