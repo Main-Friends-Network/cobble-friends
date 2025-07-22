@@ -1,0 +1,17 @@
+{
+	icon: {
+		id: "cobblemon:red_apricorn_seed"
+	}
+	id: "39740491B39C0A4D"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ id: "26C96EC6C268D176", item: { count: 1, id: "cobblemon:red_apricorn_seed" } }
+		{ id: "437B02A8635FDE96", item: { count: 1, id: "cobblemon:yellow_apricorn_seed" } }
+		{ id: "2E00C0DBF1EC446B", item: { count: 1, id: "cobblemon:green_apricorn_seed" } }
+		{ id: "57E787999A22348D", item: { count: 1, id: "cobblemon:blue_apricorn_seed" } }
+		{ id: "5F90BE0938F596D1", item: { count: 1, id: "cobblemon:pink_apricorn_seed" } }
+		{ id: "295499BA45020A46", item: { count: 1, id: "cobblemon:black_apricorn_seed" } }
+		{ id: "69C6DFAB8F5FDB2E", item: { count: 1, id: "cobblemon:white_apricorn_seed" } }
+	]
+}
