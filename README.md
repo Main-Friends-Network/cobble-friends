@@ -140,7 +140,7 @@ This allows the java client itself to download the mods itself via a packwiz-ins
 
 You need a public webserver which serves the generated files in ``/modpack`` from packwiz. 
 
-Given that youre serving the ``pack.toml`` at http://mymodpack.com, you can open http://mymodpack.com/pack.toml at your webbrowser and see the value of your pack.toml file.
+Given that youre serving the ``pack.toml`` at https://cobble.mainfriends-network.de, you can open https://cobble.mainfriends-network.de/modpack/pack.toml at your webbrowser and see the value of your pack.toml file.
 
 An example `docker-compose.yaml` can be found within this repository, which hosts a webserver serving the pack at http://localhost:8080/pack.toml.
 
@@ -168,7 +168,7 @@ You can do that e.g. by using **Prism Launcher**:
 
 - - 4.3 Choose the tab `Custom commands` and enable the checkbox `Custom Commands` 
 
-- - 4.4 Insert `"$INST_JAVA" -jar packwiz-installer-bootstrap.jar http://mymodpack.com/pack.toml` into the `Pre-launch command` field. **Don't forget to change the url.**
+- - 4.4 Insert `"$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://cobble.mainfriends-network.de/modpack/pack.toml` into the `Pre-launch command` field. **Don't forget to change the url.**
 
 Now you can distribute your Prism Launcher Modpack by right clicking the instance and select `Export Prism Launcher (zip)`.
 

@@ -1,0 +1,143 @@
+name: Build and Release Modpack
+
+on:
+  push:
+    branches:
+      - main
+      - master
+      - pre
+    paths:
+      - 'modpack/**'
+      - '.github/workflows/release.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.24'
+
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Refresh modpack index
+        working-directory: ./modpack
+        run: packwiz refresh
+
+      - name: Extract version from pack.toml
+        id: version
+        working-directory: ./modpack
+        run: |
+          VERSION=$(grep '^version = ' pack.toml | sed 's/version = "\(.*\)"/\1/')
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "Modpack version: $VERSION"
+          
+          # Determine if this is a pre-release
+          # Method 1: Branch name is 'pre'
+          # Method 2: Version contains pre-release identifier (e.g., -alpha, -beta, -rc)
+          if [[ "$GITHUB_REF" == "refs/heads/pre" ]] || [[ "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+-.*$ ]]; then
+            echo "is_prerelease=true" >> $GITHUB_OUTPUT
+            echo "This is a pre-release version"
+          else
+            echo "is_prerelease=false" >> $GITHUB_OUTPUT
+            echo "This is a stable release"
+          fi
+          
+          # Add branch suffix to pre-release versions from 'pre' branch
+          if [[ "$GITHUB_REF" == "refs/heads/pre" ]] && [[ ! "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+-.*$ ]]; then
+            VERSION="${VERSION}-pre.${GITHUB_SHA::7}"
+            echo "version=$VERSION" >> $GITHUB_OUTPUT
+            echo "Adjusted version for pre branch: $VERSION"
+          fi
+
+      - name: Check if release exists
+        id: check_release
+        run: |
+          if git rev-parse "v${{ steps.version.outputs.version }}" >/dev/null 2>&1; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create modpack distribution
+        if: steps.check_release.outputs.exists == 'false'
+        working-directory: ./modpack
+        run: |
+          mkdir -p ../dist
+          cp -r . ../dist/modpack
+          cd ../dist
+          zip -r cobble-friends-v${{ steps.version.outputs.version }}.zip modpack/
+
+      - name: Generate changelog
+        if: steps.check_release.outputs.exists == 'false'
+        id: changelog
+        run: |
+          if [ $(git tag | wc -l) -eq 0 ]; then
+            echo "changelog=Initial release of Cobble Friends modpack" >> $GITHUB_OUTPUT
+          else
+            LATEST_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "")
+            if [ -n "$LATEST_TAG" ]; then
+              CHANGELOG=$(git log $LATEST_TAG..HEAD --pretty=format:"- %s" --no-merges -- modpack/)
+              if [ -z "$CHANGELOG" ]; then
+                CHANGELOG="- Minor updates and improvements"
+              fi
+            else
+              CHANGELOG="- Initial release"
+            fi
+            echo "changelog<<EOF" >> $GITHUB_OUTPUT
+            echo "$CHANGELOG" >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create GitHub Release
+        if: steps.check_release.outputs.exists == 'false'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ steps.version.outputs.version }}
+          name: Cobble Friends v${{ steps.version.outputs.version }}${{ steps.version.outputs.is_prerelease == 'true' && ' (Pre-release)' || '' }}
+          body: |
+            # Cobble Friends v${{ steps.version.outputs.version }}${{ steps.version.outputs.is_prerelease == 'true' && ' 🚧' || '' }}
+            ${{ steps.version.outputs.is_prerelease == 'true' && '⚠️ **This is a pre-release version**. It may contain bugs or incomplete features. Use at your own risk!' || '' }}
+            
+            ## Installation
+            
+            ### For Players
+            1. Download `cobble-friends-v${{ steps.version.outputs.version }}.zip`
+            2. Extract the archive
+            3. Use packwiz-installer-bootstrap to install the modpack
+            4. Configure your launcher with the pre-launch command pointing to your server URL
+            
+            ### Modpack Details
+            - **Minecraft Version:** 1.21.1
+            - **Mod Loader:** NeoForge 21.1.188
+            - **Modpack Version:** ${{ steps.version.outputs.version }}
+            - **Release Type:** ${{ steps.version.outputs.is_prerelease == 'true' && 'Pre-release' || 'Stable' }}
+            
+            ## Changes
+            ${{ steps.changelog.outputs.changelog }}
+            
+            ## Installation Instructions
+            See the [README](https://github.com/${{ github.repository }}/blob/main/README.md) for detailed installation instructions.
+          files: |
+            dist/cobble-friends-v${{ steps.version.outputs.version }}.zip
+          draft: false
+          prerelease: ${{ steps.version.outputs.is_prerelease == 'true' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Release already exists
+        if: steps.check_release.outputs.exists == 'true'
+        run: |
+          echo "⚠️ Release v${{ steps.version.outputs.version }} already exists. Skipping release creation."
+          echo "To create a new release, update the version in modpack/pack.toml"
